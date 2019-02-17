@@ -1,0 +1,82 @@
+---
+title: "Visualización de datos"
+author: "Luz Frias"
+output:
+  revealjs::revealjs_presentation:
+    pandoc_args: [ "--slide-level", "1" ]
+    transition: none
+    background_transition: none
+    reveal_options:
+      controls: false
+      width: 1200
+---
+
+## Introducción visualización de datos
+
+* Es parte del análisis exploratorio de los datos
+* De un vistazo, podemos entender:
+
+    * Distribuciones
+    * Relaciones entre atributos
+    * ...
+
+## Evitar la distorsión de los datos
+
+![Ejemplo](https://d1avok0lzls2w.cloudfront.net/img_uploads/pie3Djpexploded.png)
+![Ejemplo](https://d1avok0lzls2w.cloudfront.net/img_uploads/military-npr.png)
+
+## El contexto de los gráficos
+
+* El gráfico debe servir para apoyar una serie de conclusiones / explicaciones a lo observado
+
+![Ejemplo](https://d1avok0lzls2w.cloudfront.net/img_uploads/facebook_2012.jpg)
+
+## Un mismo gráfico para exponer varios niveles de detalle
+
+* Combinando formas, colores y posición podemos describir varias dimensiones de la información de un solo vistazo
+
+![Ejemplo](https://d1avok0lzls2w.cloudfront.net/img_uploads/space-launches.png)
+
+* La dimensión tiempo en los gráficos: [ejemplo](https://www.visualcapitalist.com/animation-the-worlds-10-largest-economies-by-gdp-1960-today/)
+
+## Los colores
+
+* Es importante escoger una escala que refleje la naturaleza de los datos:
+
+    * Secuencial: refleja progresivamente las diferencias entre poco y mucho. Por ejemplo, los ingresos mensuales medios por barrio.
+    * Divergente: tiene naturaleza secuencial, pero interesa destacar los extremos y el punto medio. Por ejemplo, el mapa de intención de voto demócrata vs republicano en EEUU.
+    * Cualitativa: refleja categóricas sin orden. Por ejemplo, hombres vs mujeres.
+
+* Es muy complicado elegir bien una escala. Usa herramientas que ya las proporcionan, como [colorbrewer](http://colorbrewer2.org/)
+
+## La escalas
+
+* Naturaleza de la comparación: normal, logarítmica, ... [Ejemplo](https://www.researchtrends.com/wp-content/uploads/2012/09/KL2-log-scale.jpg)
+* El cero: ¿comparaciones absolutas o relativas? [Ejemplo](http://www.datapine.com/blog/wp-content/uploads/2014/06/Same-Data-Different-Y-Axis-Data-Visualization-Designed-to-Mislead.png)
+* Varias escalas: deben usarse bien para evitar confusiones. [Ejemplo](https://www.elsevier.com/__data/assets/image/0015/35043/Figure-2.jpg)
+
+## La importancia del tipo de gráfico
+
+* [Chart suggestion](https://apandre.files.wordpress.com/2011/02/chartchooserincolor.jpg)
+
+## Ejemplos buenos gráficos: ¿por qué?
+
+* [Servicio militar EEUU](http://www.npr.org/2011/07/03/137536111/by-the-numbers-todays-military)
+* [Cartograma elecciones UK](http://www.viewsoftheworld.net/wp-content/uploads/2015/05/ukelection2015_mapviews.jpg)
+* [Interactivo rutinas](https://podio.com/site/creative-routines)
+* [Animación envejecimiento población](https://www.visualcapitalist.com/us-population-pyramid-1980-2050/)
+* [Tendencias twitter](http://echeloninsights.com/wp-content/uploads/2014/12/theyearinnews20141.png)
+* [Pictoline](https://twitter.com/pictoline/status/796541916397576194?lang=en)
+* [Elecciones catalanas](http://www.huffingtonpost.es/2015/09/28/elecciones-catalanas-twitter_n_8206438.html)
+* [Redes sociales y grafos](https://twitter.com/graphext/status/748119214431543296)
+
+## Ejemplos malos gráficos: ¿qué cambiarías?
+
+* [Categorías empresas](https://www.datanalytics.com/2011/11/08/bump-charts-para-comparar-graficamente-proporciones-entre-periodos/)
+* [IEH](https://www.datanalytics.com/2015/04/23/valores-diferentes/)
+* [Ejes](https://www.datanalytics.com/2013/09/05/donde-deberian-comenzar-los-ejes/)
+* [Pomelos](https://www.datanalytics.com/2013/08/27/el-pomelazo-del-csic/)
+* [Proporciones](https://www.datanalytics.com/2013/03/19/mapas-realmente-necesarios/)
+* [El engaño](https://www.datanalytics.com/2011/01/31/un-grafico-enganabobos/)
+* [Blog dedicado a los gráficos sin sentido](http://viz.wtf/)
+
