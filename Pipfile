@@ -15,6 +15,7 @@ bs4 = "*"
 matplotlib = "*"
 bokeh = "*"
 ipykernel = "*"
+folium = "*"
 
 [requires]
 python_version = "3.7"
