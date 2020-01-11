@@ -143,6 +143,10 @@ pipenv run jupyter notebook .
 
 Si ves algo incorrecto, que no se entiende bien, crees que falta alguna explicación o tienes alguna idea que compartir, puedes crear una `issue` en el repositorio.
 
+## Licencia
+
+[![Binder](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
 ## TODO
 
 * Revisar links rotos
