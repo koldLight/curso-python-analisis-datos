@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/koldLight/curso-python-analisis-datos/master)
+
 # Libro Python para análisis de datos
 
 Este curso tiene como objetivo enseñar Python orientado al análisis de datos en aproximadamente 24 horas.
@@ -25,7 +27,7 @@ No hace falta tener conocimientos previos de Python.
 
 ### Binder
 
-La forma más fácil es utilizando Binder. Entra [aquí](), espera a que se inicie, y tendrás los notebooks disponibles en un entorno funcional. De esta forma, puedes seguir el curso sin necesidad de que instales nada en tu ordenador.
+La forma más fácil es utilizando Binder. Entra [aquí](https://mybinder.org/v2/gh/koldLight/curso-python-analisis-datos/master), espera a que se inicie, y tendrás los notebooks disponibles en un entorno funcional. De esta forma, puedes seguir el curso sin necesidad de que instales nada en tu ordenador.
 
 En cambio, si quieres ir realizando los ejercicios y guardando los resultados, te recomiendo que instales Python localmente.
 
