@@ -23,6 +23,10 @@ No hace falta tener conocimientos previos de Python.
 * 13: Producción
 * 14: Entornos
 
+_Nota:_ Hay gente que piensa que esta forma de ordenar el curso es _rara_. Los programadores estamos acostumbrados a empezar viendo sintaxis básica, tipos de datos, etc... para ir subiendo a librerías de más alto nivel más tarde.
+
+Aquí, lo he hecho al revés. Lo primero que vemos son tablas de datos con pandas y de forma indirecta iremos utilizando números, cadenas de texto, listas, diccionarios, ... sin haberlos dado explícitamente. ¿Por qué? Para que el principiante pueda ver avance rápidamente y comprenda para qué sirve esa _parte aburrida_ de los tipos de datos y estructuras básicas antes de ponerse con ellas.
+
 ## Ejecutar los notebooks del curso
 
 ### Binder
