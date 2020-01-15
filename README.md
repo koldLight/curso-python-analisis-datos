@@ -140,7 +140,7 @@ A partir de ahora, en `jupyter`, tendrás un nuevo kernel disponible llamado `li
 Finalmente, para lanzar los notebooks:
 
 ```
-pipenv run jupyter notebook .
+pipenv run jupyter notebook notebooks
 ```
 
 ## Contribuye
