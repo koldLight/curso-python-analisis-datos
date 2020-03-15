@@ -29,20 +29,20 @@ Aquí, lo he hecho al revés. Lo primero que vemos son tablas de datos con panda
 
 ## Ejecutar los notebooks del curso
 
-### Binder
+### Opción 1: Binder
 
 La forma más fácil es utilizando Binder. Entra [aquí](https://mybinder.org/v2/gh/koldLight/curso-python-analisis-datos/master), espera a que se inicie, y tendrás los notebooks disponibles en un entorno funcional. De esta forma, puedes seguir el curso sin necesidad de que instales nada en tu ordenador.
 
 En cambio, si quieres ir realizando los ejercicios y guardando los resultados, te recomiendo que instales Python localmente.
 
-### Instalación local
+### Opción 2: Instalación local
 
 Para lanzarlo desde tu máquina, tienes dos opciones:
 
 * Instalar Anaconda para Python 3 (recomendado para usuarios principiantes)
 * Utilizar `pipenv` (recomendado para usuarios avanzados).
 
-#### Instalación local con Anaconda
+#### Opción 2a: Instalación local con Anaconda
 
 Instala la última versión de Anaconda para Python 3.7 para tu sistema operativo desde [aquí](https://www.anaconda.com/download). Fíjate bien que instales la de Python 3.7 (y no la de Python 2.7).
 
@@ -94,7 +94,7 @@ jupyter notebook --notebook-dir='/mi/ruta/con/notebooks'
 
 Modificando la ruta dependiendo de dónde los hayas descargado.
 
-#### Instalación local con pipenv
+#### Opción 2b: Instalación local con pipenv
 
 Necesitarás:
 
@@ -142,6 +142,26 @@ Finalmente, para lanzar los notebooks:
 ```
 pipenv run jupyter notebook notebooks
 ```
+
+### Opción 3: Docker
+
+Si prefieres utilizar un contenedor para lanzar el curso, basta con que tengas instalado `docker` en tu ordenador y lances:
+
+```
+docker-compose up --build
+```
+
+Cuando esté corriendo, saldrá un mensaje parecido a este por consola:
+
+```
+curso_1  |     To access the notebook, open this file in a browser:
+curso_1  |         file:///root/.local/share/jupyter/runtime/nbserver-1-open.html
+curso_1  |     Or copy and paste one of these URLs:
+curso_1  |         http://d9a5de8c039a:8888/?token=xxxxxxxx
+curso_1  |      or http://127.0.0.1:8888/?token=xxxxxxxx
+```
+
+Copia y pega en tu navegador la última URL (la que empieza por `http://127.0.0.1:8888/?token=`) y accederás a los notebooks desplegados en tu contenedor.
 
 ## Contribuye
 
