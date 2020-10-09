@@ -169,7 +169,12 @@ Si ves algo incorrecto, que no se entiende bien, crees que falta alguna explicac
 
 ## Licencia
 
-[![Binder](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+[![](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+Puedes utilizar libremente este material, con las siguientes condiciones:
+
+* Atribuir la autoría a este repositorio.
+* Si lo utilizas y haces cambios, deberás liberarlo también bajo la misma licencia.
 
 ## TODO
 
