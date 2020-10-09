@@ -175,6 +175,4 @@ Si ves algo incorrecto, que no se entiende bien, crees que falta alguna explicac
 
 * Revisar links rotos
 * Añadir ejemplo paleta cut en sns
-* Ejercicio OVNIs quitar hist o sugerir agregar por año
-* Cambiar orden de ejercicio APIs después de mapas
 * Pasar tema 06 intro visualización a notebook (en lugar de Rmd + html)
