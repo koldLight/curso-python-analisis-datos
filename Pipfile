@@ -16,6 +16,7 @@ matplotlib = "*"
 bokeh = "*"
 ipykernel = "*"
 folium = "*"
+Pillow = ">=7.1.0"
 
 [requires]
 python_version = "3.7"
