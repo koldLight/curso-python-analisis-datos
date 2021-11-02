@@ -2,7 +2,9 @@ version: '3.7'
 
 services:
   curso:
-    build: .
+    build:
+      context: . 
+      dockerfile: Dockerfile.local 
     volumes:
       - .:/curso
     ports:
