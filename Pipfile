@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-sklearn = "*"
+scikit-learn = "*"
 pandas = "*"
 numpy = "*"
 seaborn = "*"
@@ -19,4 +19,4 @@ folium = "*"
 Pillow = ">=8.2.0"
 
 [requires]
-python_version = "3.7"
+python_version = "3.12"

@@ -44,11 +44,11 @@ Para lanzarlo desde tu máquina, tienes dos opciones:
 
 #### Opción 2a: Instalación local con Anaconda
 
-Instala la última versión de Anaconda para Python 3.7 para tu sistema operativo desde [aquí](https://www.anaconda.com/download). Fíjate bien que instales la de Python 3.7 (y no la de Python 2.7).
+Instala la última versión de Anaconda para Python 3 para tu sistema operativo desde [aquí](https://www.anaconda.com/download/success). Fíjate bien que instales la de Python 3 (y no la de Python 2). Si te sale una ventana que te pide el email, busca y haz clic debajo en la opción "skip registration" / "saltar registro" o similar.
 
 Aquí tienes un tutorial paso a paso de cómo hacerlo:
 
-* [Windows](https://www.datacamp.com/community/tutorials/installing-anaconda-windows). Fíjate bien en el paso en el que debes marcar que añada anaconda al PATH. Esa casilla debe quedar marcada.
+* [Windows](https://www.datacamp.com/community/tutorials/installing-anaconda-windows). **Fíjate bien en el paso en el que debes marcar que añada anaconda al PATH**. Aunque esté desmarcado y salga como no recomendado, esa casilla debe quedar marcada.
 * [Mac](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x).
 
 Una vez instalado, nuestra terminal debería reconocer los comandos `conda` (el gestor de paquetes), `jupyter` (la herramienta de notebooks) y `python`, gracias a que hemos añadido anaconda a nuestro PATH. Esto quiere decir que, cuando escribamos uno de estos comandos, nuestro sistema lo buscará en la carpeta de anaconda. 
@@ -59,7 +59,7 @@ Para comprobarlo, abre una consola. Esto se puede hacer:
 * En Mac, abre una terminal. Si necesitas ayuda sobre cómo abrirla, mira [aquí](https://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line).
 * En ubuntu / debian, abre una terminal. Si necesitas ayuda, mira [aquí](https://www.lifewire.com/ways-to-open-a-terminal-console-window-using-ubuntu-4075024).
 
-Una vez abierto, nos debería funcionar bien los siguientes tres comandos:
+Una vez abierto, nos deberían funcionar bien los siguientes tres comandos. Compruébalos en tu terminal:
 
 ```
 python --version
@@ -98,7 +98,7 @@ Modificando la ruta dependiendo de dónde los hayas descargado.
 
 Necesitarás:
 
-  * Python 3.7 o superior
+  * Python 3
   * pipenv
   * jupyter
 
@@ -117,7 +117,7 @@ sudo -H pip install -U jupyter
 Para instalar las dependencias, ejecuta:
 
 ```
-pipenv install --dev
+pipenv install
 ```
 
 La primera vez que lo lances, creará el entorno virtual con las dependencias del proyecto.
